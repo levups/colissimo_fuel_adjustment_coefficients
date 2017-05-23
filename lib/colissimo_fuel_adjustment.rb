@@ -42,6 +42,6 @@ class ColissimoFuelAdjustment
 private
 
   def format_multiplier(coefficient)
-    "%.2f" % (coefficient.positive? ? coefficient : 1)
+    "%.4f" % (coefficient / 100 + 1)
   end
 end
