@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require "colissimo_fuel_adjustment"
+
+ch = ColissimoFuelAdjustment.new
+puts "# Fuel multipliers for '#{ch.time_period}'"
+puts "# Fetched from #{ch.url}"
+puts ""
+puts "AIR_FUEL_MULTIPLIER  = #{ch.air_multiplier}"
+puts "ROAD_FUEL_MULTIPLIER = #{ch.road_multiplier}"
