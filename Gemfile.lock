@@ -5,7 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     ansi (1.5.0)
     ast (2.4.0)
-    httparty (0.15.5)
+    httparty (0.16.2)
       multi_xml (>= 0.5.2)
     multi_xml (0.6.0)
     oga (2.15)
