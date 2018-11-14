@@ -17,8 +17,9 @@ require 'oga'
 #   <indice_gazole>
 class ColissimoFuelAdjustmentCoefficients
   def initialize
-    document = ::Oga.parse_xml response.to_s
-    @cap = document.xpath('indice_gazole/cap/cap_mois').first
+    @document = ::Oga.parse_xml response.to_s
+    @cap = @document.at_xpath('indice_gazole/cap/cap_mois') ||
+           Oga::XML::Element.new
   end
 
   def url
@@ -26,7 +27,10 @@ class ColissimoFuelAdjustmentCoefficients
   end
 
   def time_period
-    @cap.at_xpath('titre').text
+    el = @cap.at_xpath('titre')
+    return unless el
+
+    el.text
   end
 
   def air_multiplier
@@ -46,7 +50,10 @@ class ColissimoFuelAdjustmentCoefficients
   end
 
   def format_multiplier(kind)
-    multiplier = @cap.at_css(kind).text
+    el = @cap.at_css(kind)
+    return unless el
+
+    multiplier = el.text
     multiplier.tr!('%', '')
     multiplier.tr!(',', '.')
 
