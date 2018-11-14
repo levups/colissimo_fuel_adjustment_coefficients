@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
-require "colissimo_fuel_adjustment"
+# frozen_string_literal: true
 
-ch = ColissimoFuelAdjustment.new
-puts "# Fuel multipliers for '#{ch.time_period}'"
+require 'colissimo_fuel_adjustment_coefficients'
+
+ch = ColissimoFuelAdjustmentCoefficients.new
+puts "# Fuel multipliers for #{ch.time_period}"
 puts "# Fetched from #{ch.url}"
-puts ""
-puts "AIR_FUEL_MULTIPLIER  = #{ch.air_multiplier}"
-puts "ROAD_FUEL_MULTIPLIER = #{ch.road_multiplier}"
+puts
+puts "AIR_FUEL_MULTIPLIER  = #{format '%.4f', ch.air_multiplier}"
+puts "ROAD_FUEL_MULTIPLIER = #{format '%.4f', ch.road_multiplier}"
