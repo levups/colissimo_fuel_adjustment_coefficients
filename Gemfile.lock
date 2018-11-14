@@ -29,6 +29,7 @@ GEM
       ast
       ruby-ll (~> 2.1)
     public_suffix (3.0.3)
+    rake (12.3.1)
     ruby-ll (2.1.2)
       ansi
       ast
@@ -43,6 +44,7 @@ DEPENDENCIES
   colissimo_fuel_adjustment_coefficients!
   minitest (~> 5.1)
   minitest-stub_any_instance (~> 1.0)
+  rake (~> 12.3)
 
 BUNDLED WITH
    1.17.1
