@@ -31,6 +31,9 @@ Gem::Specification.new do |s|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
 
+  # Signature config
+  s.cert_chain  = ["certs/bob_levups.pem"]
+  s.signing_key = File.expand_path("~/.ssh/bob_levups-gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
 
   s.add_dependency "http", "~> 4.0"
   s.add_dependency "oga", "~> 2.10"
