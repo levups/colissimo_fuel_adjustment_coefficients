@@ -1,2 +1,21 @@
 Style/Documentation:
   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/GuardClause:
+  Exclude:
+    - './*.gemspec'
+  
+Metrics/BlockLength:
+  Exclude:
+    - './*.gemspec'
+
+Metrics/LineLength:
+  Exclude:
+    - './*.gemspec'
+

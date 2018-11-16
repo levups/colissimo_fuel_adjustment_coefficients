@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    colissimo_fuel_adjustment_coefficients (0.2.0)
+    colissimo_fuel_adjustment_coefficients (0.2.1)
       http (~> 4.0)
       oga (~> 2.10)
 
@@ -41,6 +41,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.17)
   colissimo_fuel_adjustment_coefficients!
   minitest (~> 5.1)
   minitest-stub_any_instance (~> 1.0)

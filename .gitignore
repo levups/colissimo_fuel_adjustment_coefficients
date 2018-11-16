@@ -1,2 +1,9 @@
-*.gem
+/.bundle/
 /.github_changelog_generator
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
