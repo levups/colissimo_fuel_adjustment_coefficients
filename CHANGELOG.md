@@ -1,5 +1,17 @@
 # Change Log
 
+## [v0.2.1](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.2.1) (2018-11-16)
+[Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.2.0...v0.2.1)
+
+**Closed issues:**
+
+- Sign gem before publishing it [\#11](https://github.com/levups/colissimo_fuel_adjustment_coefficients/issues/11)
+- Comply to `bundle gem` defaults [\#10](https://github.com/levups/colissimo_fuel_adjustment_coefficients/issues/10)
+
+**Merged pull requests:**
+
+- Prepare for official gem release [\#12](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/12) ([bobmaerten](https://github.com/bobmaerten))
+
 ## [v0.2.0](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.2.0) (2018-11-14)
 [Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.1.0...v0.2.0)
 
@@ -12,6 +24,11 @@
 **Merged pull requests:**
 
 - Replace httparty with HTTP.rb, unify code and add tests [\#9](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/9) ([bobmaerten](https://github.com/bobmaerten))
+- Bump httparty from 0.16.2 to 0.16.3 [\#5](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump ast from 2.3.0 to 2.4.0 [\#4](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/4) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump addressable from 2.5.1 to 2.5.2 [\#3](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump oga from 2.10 to 2.15 [\#2](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump httparty from 0.15.5 to 0.16.2 [\#1](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [v0.1.0](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.1.0) (2017-05-23)
 
