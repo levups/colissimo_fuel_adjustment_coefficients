@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.2.2](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.2.2) (2018-11-16)
+[Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.2.1...v0.2.2)
+
+- Correct homepage value in gemspec
+- Update README
+
 ## [v0.2.1](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.2.1) (2018-11-16)
 [Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.2.0...v0.2.1)
 

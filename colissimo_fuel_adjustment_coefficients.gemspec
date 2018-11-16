@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.name        = "colissimo_fuel_adjustment_coefficients"
-  s.version     = "0.2.1"
+  s.version     = "0.2.2"
   s.authors     = ["Bob Maerten", "Clément Joubert"]
   s.email       = ["bob@levups.com", "clement@levups.com"]
 
   s.date        = "2018-11-16"
   s.summary     = "Retrieve current month's Colissimo's fuel surcharges"
   s.description = "A simple gem to ease/automate getting this data every month."
-  s.homepage    = "https://rubygems.org/gems/chronopost_fuel_adjustment_coefficients"
+  s.homepage    = "https://rubygems.org/gems/colissimo_fuel_adjustment_coefficients"
   s.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

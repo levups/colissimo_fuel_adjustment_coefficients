@@ -26,6 +26,6 @@ Or use it in your app:
 
     require 'colissimo_fuel_adjustment_coefficients'
 
-    ch = ColissimoFuelAdjustmentCoefficients.new
-    ch.road_multiplier      # 0.10077e1
-    ch.air_multiplier       # 0.1e1
+    colissimo = ColissimoFuelAdjustmentCoefficients.new
+    colissimo.road_multiplier      # 0.10077e1
+    colissimo.air_multiplier       # 0.1e1
