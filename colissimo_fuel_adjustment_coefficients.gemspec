@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "colissimo_fuel_adjustment_coefficients"
-  s.version     = "0.2.2"
+  s.version     = "0.3.0"
   s.authors     = ["Bob Maerten", "Clément Joubert"]
   s.email       = ["bob@levups.com", "clement@levups.com"]
 

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    colissimo_fuel_adjustment_coefficients (0.2.2)
+    colissimo_fuel_adjustment_coefficients (0.3.0)
       http (~> 4.0)
 
 GEM
