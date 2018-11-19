@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "colissimo_fuel_adjustment_coefficients"
-  s.version     = "0.2.2"
+  s.version     = "0.3.0"
   s.authors     = ["Bob Maerten", "Clément Joubert"]
   s.email       = ["bob@levups.com", "clement@levups.com"]
 
@@ -36,7 +36,6 @@ Gem::Specification.new do |s|
   s.signing_key = File.expand_path("~/.ssh/bob_levups-gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
 
   s.add_dependency "http", "~> 4.0"
-  s.add_dependency "oga", "~> 2.10"
 
   s.add_development_dependency "bundler", "~> 1.17"
   s.add_development_dependency "minitest", "~> 5.1"
