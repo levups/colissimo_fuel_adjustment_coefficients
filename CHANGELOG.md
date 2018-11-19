@@ -1,10 +1,18 @@
 # Change Log
 
+## [v0.3.0](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.3.0) (2018-11-19)
+[Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.2.2...v0.3.0)
+
+**Closed issues:**
+
+- Replace Oga usage with plain standard REXML parsing? [\#13](https://github.com/levups/colissimo_fuel_adjustment_coefficients/issues/13)
+
+**Merged pull requests:**
+
+- Replace oga with REXML [\#14](https://github.com/levups/colissimo_fuel_adjustment_coefficients/pull/14) ([bobmaerten](https://github.com/bobmaerten))
+
 ## [v0.2.2](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.2.2) (2018-11-16)
 [Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.2.1...v0.2.2)
-
-- Correct homepage value in gemspec
-- Update README
 
 ## [v0.2.1](https://github.com/levups/colissimo_fuel_adjustment_coefficients/tree/v0.2.1) (2018-11-16)
 [Full Changelog](https://github.com/levups/colissimo_fuel_adjustment_coefficients/compare/v0.2.0...v0.2.1)
