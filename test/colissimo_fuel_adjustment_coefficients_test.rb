@@ -37,8 +37,6 @@ class ColissimoFuelAdjustmentCoefficientsTest < Minitest::Test
   end
 
   def test_live_values
-    skip if stub_tests?
-
     live_colissimo = ColissimoFuelAdjustmentCoefficients.new
     colissimo_date = Date.parse live_colissimo.time_period
 
@@ -87,9 +85,5 @@ class ColissimoFuelAdjustmentCoefficientsTest < Minitest::Test
       @colissimo = ColissimoFuelAdjustmentCoefficients.new
       yield
     end
-  end
-
-  def stub_tests?
-    !(ENV["NO_STUBBED_TESTS"] || ENV["TRAVIS_EVENT_TYPE"] == "cron")
   end
 end
